@@ -30,24 +30,16 @@ public class Health : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
-        // 2022--01-26: multiply the default health by n lives to get the total health
+        // 2022--01-26
         currentLive = maxLive;
-    }
-
-    // 2022--01-26: 
-    public void checkHealLive()
-    {
-        if(currentHealth >= maxHealth && currentLive < maxLive)
-        {
-            currentLive += 1;
-        }
     }
 
     public void Heal(float healAmount)
     {
         float healthBefore = currentHealth;
         currentHealth += healAmount;
-        // 2022--01-26: 
+        // 2022--01-26: check if current live is less than maxLive, if so increase lives 
+        // and add the leftover healing amount to the new bar
         if (currentHealth >= maxHealth && currentLive < maxLive)
         {
             currentLive += 1;
