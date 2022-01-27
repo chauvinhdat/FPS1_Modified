@@ -20,6 +20,15 @@
      Created a Teleporter script with player and destination parameters to teleport players back and forth
      Implemented a locking feature and timer in case player accidentally step back to the portal (5 seconds cooldown/lock)
 
+### Files Modified/Added
+     Health.cs
+     PlayerHealthBar.cs
+     Enemy_HoverBot_v2 prefab
+     Projectile_v2 prefab
+     GameHUD prefab
+     Teleporter.cs
+     RandomSpawner.cs
+     
 
 ## Build Instructions
 1. Access Builds -> Windows folder
