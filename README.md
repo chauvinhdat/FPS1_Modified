@@ -1,5 +1,5 @@
 # FPS1 MODIFIED
-### This project is a modification of Unity tutorial project FPS1
+### This project is a modification of Unity tutorial project
 
 ## Summary
 ### 1. Added lives feature to the game, allowing 3 additional lives to the player. 
