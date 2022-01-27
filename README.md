@@ -1,4 +1,4 @@
-# FPS1_MODIFIED
+# FPS1 MODIFIED
 ### This project is a modification of Unity tutorial project FPS1
 
 ## Summary
