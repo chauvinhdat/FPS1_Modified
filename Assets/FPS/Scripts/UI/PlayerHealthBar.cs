@@ -27,7 +27,7 @@ public class PlayerHealthBar : MonoBehaviour
     {
         // update health bar value
         healthFillImage.fillAmount = m_PlayerHealth.currentHealth / m_PlayerHealth.maxHealth;
-        // 2022=01=26 update player lives based on their currentLive counter
+        // 2022=01=26 update player lives UI based on their currentLive counter
         switch(m_PlayerHealth.currentLive)
         {
             case 3:
