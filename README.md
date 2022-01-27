@@ -6,8 +6,8 @@
     Modified Health class to check for lives counter on top of the health bar feature implemented
     Decrease the lives counter whenever the health bar reaches 0, then reset to full with -1 lives
     Modified the UI gameHUD prefab to add 3 lives icon to signifiies the lives counter
-    Modified PlayerHealthBar class to update the UI for lives counter whenever it increases/decreases,
-    similar to health bar implemented
+    Modified PlayerHealthBar UI class to update the UI for lives counter whenever it increases/decreases,
+    similar to health bar UI implemented
 
 ### 2. Added new enemy class based on the existing "Enemy_HoverBot" class.
     Made a slight adjustment to the object appearance
@@ -22,12 +22,12 @@
 
 ### Files Modified/Added
      Health.cs
-     PlayerHealthBar.cs
+     PlayerHealthBar.cs (UI script section)
      Enemy_HoverBot_v2 prefab
      Projectile_v2 prefab
      GameHUD prefab
      Teleporter.cs
-     RandomSpawner.cs
+     RandomSpawn.cs
      
 
 ## Build Instructions
